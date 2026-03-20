@@ -2,7 +2,7 @@
 
 This repository accompanies the journal paper:
 
-> **"A Data-Driven Adaptive Control Framework for Planar Snake Robots under Unknown Ground Friction"**
+> **"Online data-informed control of planar snake robot locomotion"**
 
 The code implements an online adaptive pipeline that:
 1. Designs a robust periodic controller from offline data 
