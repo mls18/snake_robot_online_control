@@ -241,7 +241,7 @@ for i = 1:N_sim
          x_a(2,:) = x_error(i,:)   + [phi_ref_fun(i*Ts); dphi_ref_fun(i*Ts)]'+ V_col(:,i)';
          x_a(3,:) = x_error(i+1,:) + [phi_ref_fun((i+1)*Ts); dphi_ref_fun((i+1)*Ts)]'+ V_col(:,i+1)';  
 
-         [cn_nom_u, ct_nom_u] = updateNominal(x_a, u_bar, vt(k_gc:k_gc+mu)*0.6253/mean(vt(k_gc:k_gc+mu)), ...
+         [cn_nom_u, ct_nom_u] = updateNominal(x_a, u_bar, vt(k_gc:k_gc+mu)*1.0157/mean(vt(k_gc:k_gc+mu)), ...
              ct_nom, cn_nom, 1, l, Ts, N);
 
         
