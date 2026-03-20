@@ -1,4 +1,4 @@
-# Data-Driven Adaptive Control for Planar Snake Robots
+# Online data-informed control of planar snake robot locomotion
 
 This repository accompanies the journal paper:
 
