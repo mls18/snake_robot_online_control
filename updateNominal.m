@@ -30,7 +30,6 @@ rho = (kao*kdelta)/(4*l*N*vt_avg_c+kao*kdelta);
 
 % computation of cn using update formula
 dv_phi = (x_a(2,N:end)-x_a(1,N:end))/Ts;
-dv_phi = (x_a(3,N:end) - x_a(1,N:end)) / (2*Ts);
 
 term1 = -x_a(1,N:end)'/m + ((1-rho)*vt(end-1)*A*D'*x_a(1,1:N-1)')/(2*l*m);
 term2 = dv_phi'- u_bar - (cn_tilde/m*x_a(1,N:end)'+(ct_tilde-cn_tilde)/(2*l*m)*vt(end-1)*A*D'*x_a(1,1:N-1)');
